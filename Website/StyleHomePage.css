@@ -11,16 +11,26 @@ body {
 }
 #h1_name {
     text-align: center;
+    font-size: 50px;
 }
-.h2_topic {
+.btn_center {
     display: flex;
-    justify-content: center;
+    margin: auto;
 }
-.center_container {
+.btn_tab {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 300px;
 }
-.grid_container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.btn_square {
+    display: flex;
+    width: 300px;
+    aspect-ratio: 1;
+    justify-content: center;
+    align-items: start;
+    background-color: forestgreen;
+    color: aliceblue;
+    font-size: xx-large;
+    border-radius: 5px;
+    border: none;
 }
