@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+}
+.vstack {
+    display: flex;
+    flex-direction: column;
+}
+.hstack {
+    display: flex;
+    flex-direction: row;
+}
+#h1_name {
+    text-align: center;
+}
+.h2_topic {
+    display: flex;
+    justify-content: center;
+}
+.center_container {
+    display: flex;
+    justify-content: center;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
