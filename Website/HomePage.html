@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="C:\Users\toeyk\OneDrive\Pictures\Saved Pictures\earth-icon.png">
         <link rel="stylesheet" href="StyleHomePage.css">
         <script src="Scriptpage.js"></script>
         <title>Asapasorn</title>
@@ -11,19 +12,31 @@
         <div class="vstack">
             <h1 id="h1_name">อาสาภาสอน</h1>
             <div class="btn_right">
-                <select aria-label="label for the select" class="btn_Language" id="slLanguage"> <!--aria-label="label for the select" Fix bugs <select>-->
+                <select aria-label="Language Select" class="btn_Language" id="slLanguage">
                     <option value="hmong">ม้ง</option>
                     <option value="malay">มลายู</option>
                     <option value="panganno">ปากกาญอ</option>
                 </select>
             </div>
             <div class="hstack btn_center btn_tab"> <!--Button-->
-                <button class="btn_square btn_image" onclick="gotoLearnPage()">การออกเสียง</button>
-                <button class="btn_square" onclick="gotoLearnPage()">ตัวอักษร</button>
+                <button class="btn_square btn_image" onclick="gotoLearnPage()">
+                    การออกเสียง
+                    <img src="C:\Users\toeyk\OneDrive\Pictures\Saved Pictures\mouth.png" alt="mouth" class="btn_image">
+                </button>
+                <button class="btn_square" onclick="gotoLearnPage()">
+                    ตัวอักษร
+                    <img src="C:\Users\toeyk\OneDrive\Pictures\Saved Pictures\thai-alphabet.png" alt="Alphabet" class="btn_image">
+                </button>
             </div><br>
             <div class="hstack btn_center btn_tab"> <!--Button-->
-                <button class="btn_square" onclick="gotoLearnPage()">ศัพท์</button>
-                <button class="btn_square" onclick="gotoLearnPage()">อื่นๆ</button>
+                <button class="btn_square" onclick="gotoLearnPage()">
+                    ศัพท์
+                    <img src="C:\Users\toeyk\OneDrive\Pictures\Saved Pictures\thai-word.png" alt="word" class="btn_image">
+                </button>
+                <button class="btn_square" onclick="gotoLearnPage()">
+                    อื่นๆ
+                    <img src="C:\Users\toeyk\OneDrive\Pictures\Saved Pictures\others.png" alt="others" class="btn_image">
+                </button>
             </div>
         </div>
     </body>

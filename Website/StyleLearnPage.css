@@ -21,7 +21,8 @@ body {
     text-align: center;
     align-items: center;
     font-size: larger;
-    padding: 0px 20px;
+    top: 40px;
+    right: 20px;
 }
 .zstack {
 	display: grid;
@@ -36,4 +37,9 @@ body {
 	height: 60px;
 	background-color: magenta;
 	border-radius: 5px;
+}
+.btn_right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
