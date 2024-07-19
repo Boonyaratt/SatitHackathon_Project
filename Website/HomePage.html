@@ -4,18 +4,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="StyleHomePage.css">
+        <script src="Scriptpage.js"></script>
         <title>Asapasorn</title>
-    </head>
+    </head> 
     <body>
-        <h1 id="h1_name">อาสาภาสอน</h1>
         <div class="vstack">
+            <h1 id="h1_name">อาสาภาสอน</h1>
+            <div class="btn_right">
+                <select aria-label="label for the select" class="btn_Language" id="slLanguage"> <!--aria-label="label for the select" Fix bugs <select>-->
+                    <option value="hmong">ม้ง</option>
+                    <option value="malay">มลายู</option>
+                    <option value="panganno">ปากกาญอ</option>
+                </select>
+            </div>
             <div class="hstack btn_center btn_tab"> <!--Button-->
-                <button class="btn_square">การออกเสียง</button>
-                <button class="btn_square">ตัวอักษร</button>
+                <button class="btn_square btn_image" onclick="gotoLearnPage()">การออกเสียง</button>
+                <button class="btn_square" onclick="gotoLearnPage()">ตัวอักษร</button>
             </div><br>
             <div class="hstack btn_center btn_tab"> <!--Button-->
-                <button class="btn_square">ศัพท์</button>
-                <button class="btn_square">อื่นๆ</button>
+                <button class="btn_square" onclick="gotoLearnPage()">ศัพท์</button>
+                <button class="btn_square" onclick="gotoLearnPage()">อื่นๆ</button>
             </div>
         </div>
     </body>
