@@ -46,5 +46,11 @@ body {
 }
 .btn_image {
     display: inline-block;
+    padding: auto;
     width: 300px;
+    background-image: none;
+}
+.btn_login {
+    display: flexbox;
+    font-size: large;
 }
