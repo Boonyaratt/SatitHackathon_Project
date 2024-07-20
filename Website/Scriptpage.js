@@ -1,6 +1,3 @@
-var loginUser = ["Apple","abc"];
-var loginPass = ["Banna","123"];
-
 function gotoLearnPage() {
     window.location.href="LearnPage.html";
 }
@@ -20,15 +17,18 @@ function  gotoLoginPage() {
     window.location.href="LoginPage.html";
 }
 
+var loginUser = ["Apple","abc"];
+var loginPass = ["Banna","123"];
+
 function checkLogin() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     for (var i = 0; i < loginUser.length; i++) {
         if (loginUser[i] == username && loginPass[i] == password) {
             alert("LogIn Sucessful 😍😍😍");
-            window.location.href="HomePage.html"; //Not working
-            return;
+            window.location.assign("HomePage.html") //Not working
+            return ;
         }
     }
-    alert("Wrong Username or Password, Try again! 😅😅😅");
+    alert("Invalid username or password, Try again! 😅😅😅");
 }
