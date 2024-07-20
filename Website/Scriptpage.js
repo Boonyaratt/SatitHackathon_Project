@@ -6,6 +6,10 @@ function gotoHomePage() {
     window.location.href="HomePage.html";
 }
 
+function gotoBefHomePage() {
+    window.location.href="BefHomePage.html";
+}
+
 function changeLanguage() {
     var selectedLanguage = document.getElementById("language").value;
     var url=window.location.href;
